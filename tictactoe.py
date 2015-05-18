@@ -15,45 +15,37 @@ h=int(derde_rij[1])
 i=int(derde_rij[2])
 
 
-if a==b==c:
-    if a==1:
+if a==b==c==1:
         print("Player 1 wins")
-    elif a==2:
+elif a==b==c==2:
         print("Player 2 wins")
-elif d==e==f:
-    if d==1:
+elif d==e==f==1:
         print("Player 1 wins")
-    elif d==2:
+elif d==e==f==2:
         print("Player 2 wins")
-elif g==h==i:
-    if g==1:
+elif g==h==i==1:
         print("Player 1 wins")
-    elif g==2:
+elif g==h==i==2:
         print("Player 2 wins")
-elif a==d==g:
-    if a==1:
+elif a==d==g==1:
         print("Player 1 wins")
-    elif a==2:
+elif a==d==g==2:
         print("Player 2 wins")
-elif b==e==h:
-    if b==1:
+elif b==e==h==1:
         print("Player 1 wins")
-    elif b==2:
+elif b==e==h==2:
         print("Player 2 wins")
-elif c==f==i:
-    if c==1:
+elif c==f==i==1:
         print("Player 1 wins")
-    elif c==2:
+elif c==f==i==2:
         print("Player 2 wins")
-elif a==e==i:
-    if a==1:
+elif a==e==i==1:
         print("Player 1 wins")
-    elif a==2:
+elif a==e==i==2:
         print("Player 2 wins")
-elif c==e==g:
-    if c==1:
+elif c==e==g==1:
         print("Player 1 wins")
-    elif c==2:
+elif c==e==g==2:
         print("Player 2 wins")
 else:
     print("No winner")
