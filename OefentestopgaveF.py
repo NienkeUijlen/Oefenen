@@ -2,15 +2,15 @@ hoogste_niveau=int(input())
 toeschouwers=list(input())
 
 
-i=0
-s=0     #aantal mensen die staan
-v=0     #aantal vrienden
+i=1
+s=int(toeschouwers[0])      #aantal mensen die staan
+v=0                         #aantal vrienden
 while i<=hoogste_niveau:
-    if s<int(i):
+    if s<i:
         v=v+1
+        s=s+int(toeschouwers[i])+1
     else:
-        v=v
-    s=s+int(toeschouwers[i])+v
+        s=s+int(toeschouwers[i])
     i=i+1
     
 print(v)
